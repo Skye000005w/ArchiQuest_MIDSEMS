@@ -1,0 +1,172 @@
+body {
+  background-image: url(https://i.postimg.cc/FsJfTJ8Q/skye00000-You-find-yourself-in-the-dusty-attic-of-your-childh-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lora', serif;
+  padding: 20px;
+  margin: 0;
+  height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+.mystery-attic {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0e8d8;
+  background-image: url('https://www.transparenttextures.com/patterns/grunge-wall.png');
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 48px;
+  color: #4a3f35;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.player-setup {
+  background-color: #e0d5c5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.player-setup input {
+  font-family: 'Lora', serif;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0e8d8;
+  color: #4a3f35;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.player-setup button {
+  font-family: 'Lora', serif;
+  background-color: #8c6e5d;
+  color: #f0e8d8;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.player-setup button:hover {
+  background-color: #6c534a;
+}
+
+.player-memories-toggle,
+.gallery-toggle {
+  font-family: 'Lora', serif;
+  background-color: #8c6e5d;
+  color: #f0e8d8;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.player-memories-toggle:hover,
+.gallery-toggle:hover {
+  background-color: #6c534a;
+}
+
+.player-memories,
+.gallery {
+  background-color: #e0d5c5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.player-memories h3,
+.gallery h3 {
+  font-size: 28px;
+  color: #4a3f35;
+  margin-bottom: 10px;
+}
+
+.player-memories p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #6c534a;
+}
+
+.current-situation {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #4a3f35;
+  text-align: justify;
+}
+
+.action-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.action-option {
+  font-family: 'Lora', serif;
+  background-color: #6c534a;
+  color: #f0e8d8;
+  border: none;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.action-option:hover {
+  background-color: #4a3f35;
+}
+
+.start-game {
+  font-family: 'Lora', serif;
+  background-color: #8c6e5d;
+  color: #f0e8d8;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.start-game:hover {
+  background-color: #6c534a;
+}
